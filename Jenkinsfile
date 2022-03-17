@@ -41,7 +41,7 @@ pipeline {
 #        sh "docker image rm ${DOCKER_IMAGE}:latest"
 #      }
 #    }
-#  }
+  }
 
   post {
     success {
